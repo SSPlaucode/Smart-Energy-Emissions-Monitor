@@ -23,6 +23,39 @@ Low-cost industrial IoT solution that monitors electrical power consumption, tem
 - **Dashboard:** React, Recharts, Tailwind CSS
 - **Data:** CSV logging with real-time processing
 
+## 📊 Data & Validation
+
+## Important Note on Data
+
+**Development Status**: This submission represents a **proof-of-concept prototype** 
+with simulated data due to:
+1. Limited access to industrial facilities for data collection
+2. Project timeline constraints
+3. Safety/security protocols at operational plants
+
+**Data Validation Approach:**
+- Simulation based on published sensor specifications
+- Load patterns derived from industrial power monitoring research
+- Hardware architecture tested with actual Arduino + ACS712 sensors
+- Analysis algorithms validated against simulation scenarios
+
+**Next Steps for Deployment:**
+- Partner with facility for 1-week pilot installation
+- Collect baseline data from 3-5 monitoring points
+- Validate savings predictions against actual consumption
+- Refine thresholds based on site-specific operations
+
+### Why Simulated Data?
+Industrial facilities require formal approval processes for sensor installations. 
+This prototype demonstrates the complete technical pipeline (hardware → analysis → 
+insights) and is ready for immediate pilot deployment upon facility partnership.
+
+### Simulation Realism
+- Based on ACS712 datasheet specifications
+- Incorporates typical industrial load curves
+- Models realistic noise and variance
+- Validated against published power monitoring studies
+
 ## 📊 System Architecture
 
 ```
